@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin-top: 125px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  width: 1000px;
+  height: 450px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.sedans {
+  width: 333px;
+  height: 450px;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+
+}
+
+.suvs {
+  width: 333px;
+  height: 450px;
+  background-color: hsl(184, 100%, 22%);
+
+}
+
+.luxury {
+  width: 333px;
+  height: 450px;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+h1 {
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 20px 40px auto 40px;
+  color: hsl(0, 0%, 95%);
+  font-weight: 400;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  margin: 20px 70px auto 40px;
+  line-height: 25px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+img {
+  margin: 40px 40px auto 40px;
+}
+button {
+  background-color: Transparent;
+  color: hsl(0, 0%, 95%);;
+  border: 3px solid hsl(0, 0%, 95%);
+  border-radius: 30px;
+  margin: 70px 40px auto 40px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  font-family: 'Lexend Deca', sans-serif;
+
+
+}
